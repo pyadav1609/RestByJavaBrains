@@ -1,4 +1,4 @@
-package org.pankaj.gitRestDemo.messenger.resource;
+package org.pankaj.gitRestDemo.messenger.controller;
 
 import java.util.List;
 
@@ -18,7 +18,7 @@ import org.pankaj.gitRestDemo.messenger.service.MessageService;
 @Path("/messages")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
-public class MessageResource {
+public class MessageController {
 
 	MessageService messageService = new MessageService();
 	
